@@ -28,6 +28,9 @@ jobs:
       - name: Get dependencies
         run: flutter pub get
 
+      - name: Generate App Icon (nếu có ảnh)
+        run: flutter pub run flutter_launcher_icons || true
+
       - name: Build APK
         run: flutter build apk --release
 
