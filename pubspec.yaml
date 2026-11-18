@@ -1,0 +1,25 @@
+name: my_ebook_reader
+description: Ứng dụng đọc sách cá nhân đầy đủ tính năng.
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^8.1.2
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  shared_preferences: ^2.3.2
+  epub_view: ^3.2.0
+  pdfrx: ^1.0.85
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
